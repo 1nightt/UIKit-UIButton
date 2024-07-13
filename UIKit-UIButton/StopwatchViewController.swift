@@ -2,7 +2,8 @@ import UIKit
 
 /// Экран секундомера
 final class StopwatchViewController: UIViewController {
-    enum Constants {
+    // MARK: - Constants
+    private enum Constants {
         static let backgroundColor: UIColor = .white
     }
     
